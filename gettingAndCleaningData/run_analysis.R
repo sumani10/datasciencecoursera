@@ -7,12 +7,13 @@
 #       |-train (direcory)
 #       etc..
 
+  #-- set the working directory as below
+  # setwd("../../dataFiles/c03/UCI HAR Dataset")
+
   #-- store the script directory into a variable
   #-- later to use for output the tidy_data.txt file...
   outputFileName <- paste(getwd(),"/","tidy_data.txt",sep="")
 
-  #-- set the working directory as below
-  setwd("../../dataFiles/c03/UCI HAR Dataset")
 
   #-- load the data.table library...
 
